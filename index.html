@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <h1>first form </h1>
-        <form>
+        <h1 style="color: blue;">FIRST FORM 🪄</h1>
+        <form action="thanks.html" method="get">
+            <fieldset>
             <label for="name">Name:-</label><br>
-            <input type="text" id="name" placeholder="enter your name"><br><br><!--creates a box ...br used for gaping... for ki jo value h wahi input dedenge id k-->
+            <input type="text" id="name" placeholder="enter your name " required><br><br><!--creates a box ...br used for gaping... for ki jo value h wahi input dedenge id k-->
             <label for="email">Email:-</label><br>
             <input type="email" id="email" placeholder="enter your email"><br><br><!--creates a box--> 
+             <input type="password" id="password" placeholder="enter your password"><br><br><!--creates a box--> 
             <label for="address">Address:-</label><br>
             <input type="text" id="address"placeholder="enter your address"><br><br><!--creates a box--> 
             <label for="College">College Name:-</label><br>
@@ -21,9 +23,38 @@
             <input type="text" id="Roll" placeholder="enter your roll no."><br><br><!--creates a box--> 
             <label for="Phone">Phone Number:-</label><br>
             <input type="tel" id="Phone" placeholder="enter your phone number"><br><br><!--creates a box...use number in place of tel type for input only numbers and whn we will use tel then alp alspo came--> 
-            <input type="radio"  name="gender" value="male" >Male<br><!--use of radio button to choosing rom options... name , valueko edit krnge in our code then when we will select female after male then automatic remove the previous -->
-            <input type="radio"  name="gender" value="female" >Female<br>
-            <input type="radio"  name="gender" value="not to say" >Prefer not to say<br><br>
+            <input type="radio"  name="gender" value="male" >Male 👦🏻<br><!--use of radio button to choosing rom options... name , valueko edit krnge in our code then when we will select female after male then automatic remove the previous -->
+            <input type="radio"  name="gender" value="female" >Female 👧🏻<br>
+            <input type="radio"  name="gender" value="not to say" >Prefer not to say 🥺<br><br>
+
+             <label for="">select your state</label><br>
+            <select name="state" id="">
+                <option value="" >choose a state</option>
+                <option value="">uttar Pradesh</option>
+                <option value="">madhya Pradesh</option>
+                <option value="">uttrakhand</option>
+            </select>
+            <br><br>
+            <label for="">select your city</label><br>
+            <select name="state" id="">
+                <option value="" >choose a city</option>
+                <option value="">AGRA</option>
+                <option value="">MATHURA</option>
+                <option value="">BHARATPUR</option>
+            </select><br><br>
+            <label for="">select your fav. fruit</label><br>
+            <select name="state" id="">
+                <option value="">choose a fruit</option>
+                <option value="">mango</option>
+                <option value="">apple</option>
+                <option value="">orange</option>
+                  <option value="">pomegranete</option>
+                <option value="">papaya</option>
+                <option value="">grapes</option>
+            </select>
+            <br><br>
+
+
             <label for="branch">Select your Course:-</label><br>
             <input type="radio"  name="course" value="btech" >btech<!--use of radio button to choosing rom options... name , valueko edit krnge in our code then when we will select female after male then automatic remove the previous -->
             <input type="radio"  name="course" value="BBA" >BBA<br>
@@ -33,15 +64,37 @@
             <input type="radio"  name="branch" value="ec" >ECE<br>
              <input type="radio"  name="branch" value="ec" >civil
             <input type="radio"  name="branch" value="me" >ME<br><br>
-            <input type="text"/>
+            <label for="branch">Select your year:-</label><br>
+            <input type="radio"  name="year" value="cs" >1st<!--use of radio button to choosing rom options... name , valueko edit krnge in our code then when we will select female after male then automatic remove the previous -->
+            <input type="radio"  name="year" value="ec" >2nd<br>
+             <input type="radio"  name="year" value="ec" >3rd
+            <input type="radio"  name="year" value="me" >4th<br><br>
+            1-which html tag is used to define the largest heading?<br>
+            <input type="radio"  name="answer" value="" >h1 tag<br><!--use of radio button to choosing rom options... name , valueko edit krnge in our code then when we will select female after male then automatic remove the previous -->
+            <input type="radio"  name="answer" value="" >h2 tag<br>
+            <input type="radio"  name="answer" value="" >heading tag<br><br>
+                  <label for="branch">Select your fav. color:-</label><br>
+            <input type="checkbox"  name="color" value="blue" >BLUE<!--use of radio button to choosing rom options... name , valueko edit krnge in our code then when we will select female after male then automatic remove the previous -->
+            <input type="checkbox"  name="color" value="black" >BLACK<br>
+             <input type="checkbox"  name="color" value="green" >GREEN
+            <input type="checkbox"  name="color" value="yellow" >YELLOW<br><br>
+            1-what's your favourite hobby ?<br>
+            <input type="checkbox"  name="hobbies" value="" >dancing<br><!--use of radio button to choosing rom options... name , valueko edit krnge in our code then when we will select female after male then automatic remove the previous -->
+            <input type="checkbox"  name="hobbies" value="" >singing<br>
+            <input type="checkbox"  name="hobbies" value="" >drawing<br><br>
+
+            <label for="">Please Give Your Feedback</label><br>
+            <textarea name="text" id="text" cols="20" rows="10"></textarea><br><br>
+
+            <!--<input type="text"/>-->
+             <input type="checkbox" name="" id="">
             <input type="button" value="registration"/><br>
-            <input type="checkbox" name="" id="">
             <input type="date" name="dob" id="dob" value="2025-08-14">
             <input type="file">
             <input type="color" name="" id=""/>
             <input type="submit" value="submit the form" ><br>   <!-- for button-->
+            </fieldset>
         </form>
-        <style href="index.js" charset="UTF-8"></style>
 </body>
 </html>
 
